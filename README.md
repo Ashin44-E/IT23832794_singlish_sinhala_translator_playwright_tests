@@ -342,6 +342,35 @@ python -m playwright install
 python test_automation.py
 ```
 
+## How to Push the Project to GitHub
+
+Create a public GitHub repository named:
+
+```text
+IT23832794_singlish_sinhala_translator_playwright_tests
+```
+
+Then run the following commands from the project folder:
+
+```bash
+git init
+git add .
+git commit -m "Add Singlish Sinhala chat translator test automation project"
+git branch -M main
+git remote add origin https://github.com/Ashin44-E/singlish-sinhala-chat-translator-test-automation.git
+git push -u origin main
+```
+
+
+In this project:
+
+- The GitHub repository is public.
+- The README.md includes dependency installation instructions.
+- The README.md includes test running instructions.
+- The Excel file contains all 50 negative test cases.
+- The actual output is captured from the website through automation.
+- The repository link is saved in `IT23832794_repository-link.txt`.
+
 
 ## Author
 
