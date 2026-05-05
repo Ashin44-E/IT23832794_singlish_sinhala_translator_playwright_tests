@@ -158,10 +158,6 @@ Example:
 https://github.com/YOUR-USERNAME/singlish-sinhala-chat-translator-test-automation
 ```
 
-### README.md
-
-This file explains the project purpose, setup instructions, dependencies, and how to run the automation tests.
-
 ## Tools and Technologies Used
 
 ```text
@@ -295,6 +291,10 @@ A test case is valid as a negative test case only when:
 ```text
 Actual output is different from Expected output
 ```
+
+That means each test case should show a difference between:
+
+   Expected output and Actual output
 
 If the actual output is exactly the same as the expected output, that test case should be reviewed or replaced because it is not a valid negative test case.
 
